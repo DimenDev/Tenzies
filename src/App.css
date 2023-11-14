@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #0B2434;
+  padding: 20px;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+main {
+  background-color: #F5F5F5;
+  min-width: 30em;
+  min-height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+  gap: 1rem;
+
+}
+
+
+.dices {
+  display: grid;
+  grid-template-rows: repeat(2, auto); /* 2 rows */
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  gap: 1.16rem;
+  place-items: center;
+}
+
+.dice__btn {
+  background-color: #5035FF;
+  padding: 1rem 3rem;
+  color: #FFF;
+text-align: center;
+font-family: Karla;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 10px;
+border-style: none;
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+cursor: pointer;
+transition: all 0.3 ease-in-out;
+
+}
+
+.dice__btn:active {
+  transform: scale(0.8);
+}
+
+.gameInfo {
+  font-size: 40px;
+  margin: 0;
+}
+
+.instructions {
+color: #4A4E74;
+text-align: center;
+font-family: Inter;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.02456rem;
+}
+
+.title {
+  color: #2B283A;
+  text-align: center;
+  font-family: Karla;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.048rem;
+}
+
+.stats {
+  color: #2B283A;
+  text-align: center;
+  font-family: Karla;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.048rem;
+}
+
+.stopwatch-time {
+  text-align: center;
+  color: #2B283A;
+  font-size: 60px;
+}
