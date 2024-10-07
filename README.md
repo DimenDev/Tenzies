@@ -1,6 +1,6 @@
 # 🎲 Tenzies
 
-**Tenzies** is a fun and addictive dice game built using **JavaScript** and **Vite**. The objective of the game is to roll dice until all dice show the same number. Players can freeze dice to lock in numbers while continuing to roll the rest.
+**Tenzies** is a fun and addictive dice game built using **JavaScript** and **Vite**. The objective of the game is to roll dice until all dice show the same number. Players can freeze dice to lock in numbers while continuing to roll the rest. This is a project from the Scrimba Course taught by Bob Ziroll
 
 ## 🕹️ How to Play
 
